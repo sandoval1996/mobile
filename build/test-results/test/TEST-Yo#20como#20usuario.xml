@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Yo como usuario" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-07-11T06:35:10" hostname="JHONSANDOVAL" time="158.243">
+  <properties/>
+  <testcase name="Inicio sesion exitoso #1" classname="Yo como usuario" time="104.579"/>
+  <testcase name="Inicio sesion exitoso #2" classname="Yo como usuario" time="53.663"/>
+  <system-out><![CDATA[
+Esquema del escenario: Inicio sesion exitoso     # src/test/resources/Features/BuscarWikipedia.feature:15
+  Dado Ingreso las credenciales de inicio sesion # Stepdefinitions.LoginStepdefinitions.ingresoLasCredencialesDeInicioSesion(io.cucumber.datatable.DataTable)
+    | User     | Password  |
+    | Jfsl7548 | Jfsl7548* |
+  Entonces valido el inicio sesion exitoso       # Stepdefinitions.LoginStepdefinitions.validoElInicioSesionExitoso()
+
+Esquema del escenario: Inicio sesion exitoso     # src/test/resources/Features/BuscarWikipedia.feature:16
+  Dado Ingreso las credenciales de inicio sesion # Stepdefinitions.LoginStepdefinitions.ingresoLasCredencialesDeInicioSesion(io.cucumber.datatable.DataTable)
+    | User     | Password  |
+    | Ects2022 | Ects2022* |
+  Entonces valido el inicio sesion exitoso       # Stepdefinitions.LoginStepdefinitions.validoElInicioSesionExitoso()
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
